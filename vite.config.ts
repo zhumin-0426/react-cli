@@ -22,6 +22,7 @@ export default defineConfig(({ command, mode }) => {
       }
     },
     plugins: [
+      legacy(),
       react(),
       visualizer()
     ],
