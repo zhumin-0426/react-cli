@@ -5,20 +5,29 @@ import legacy from '@vitejs/plugin-legacy'
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => {
   return {
-    resolve:{
-      alias:{
-        '@':'/src'
+    resolve: {
+      alias: {
+        '@': '/src'
       }
     },
-    css:{
-      devSourcemap:command==='serve'
+    css: {
+      devSourcemap: command === 'serve'
     },
-    server:{
-      proxy:{
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            echarts: ['echarts']
+          }
+        }
+      }
+    },
+    server: {
+      proxy: {
         //https://github.com/http-party/node-http-proxy#options
-        '/apiDevlopment':{},
-        '/apiTest':{},
-        '/apiBuild':{}
+        '/apiDevlopment': {},
+        '/apiTest': {},
+        '/apiBuild': {}
       }
     },
     plugins: [
