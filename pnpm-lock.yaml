@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@reduxjs/toolkit':
     specifier: ^1.9.5
@@ -75,9 +79,18 @@ devDependencies:
   mockjs:
     specifier: ^1.1.0
     version: 1.1.0
+<<<<<<< HEAD
   postcss-preset-env:
     specifier: ^9.0.0
     version: 9.0.0(postcss@8.4.26)
+=======
+  postcss:
+    specifier: ^8.4.26
+    version: 8.4.26
+  postcss-nesting:
+    specifier: ^12.0.0
+    version: 12.0.0(postcss@8.4.26)
+>>>>>>> b14fd2c17ad3480eda0d5525e7807af5196f6e91
   prettier:
     specifier: ^3.0.0
     version: 3.0.0
@@ -1363,6 +1376,7 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@csstools/cascade-layer-name-parser@1.0.3(@csstools/css-parser-algorithms@2.3.0)(@csstools/css-tokenizer@2.1.1):
     resolution: {integrity: sha512-ks9ysPP8012j90EQCCFtDsQIXOTCOpTQFIyyoRku06y8CXtUQ+8bXI8KVm9Q9ovwDUVthWuWKZWJD3u1rwnEfw==}
     engines: {node: ^14 || ^16 || >=18}
@@ -1696,6 +1710,8 @@ packages:
       postcss: 8.4.26
     dev: true
 
+=======
+>>>>>>> b14fd2c17ad3480eda0d5525e7807af5196f6e91
   /@csstools/selector-specificity@3.0.0(postcss-selector-parser@6.0.13):
     resolution: {integrity: sha512-hBI9tfBtuPIi885ZsZ32IMEU/5nlZH/KOVYJCOh7gyMxaVLGmLedYqFN6Ui1LXkI8JlC8IsuC0rF0btcRZKd5g==}
     engines: {node: ^14 || ^16 || >=18}
@@ -3009,6 +3025,7 @@ packages:
       which: 2.0.2
     dev: true
 
+<<<<<<< HEAD
   /css-blank-pseudo@6.0.0(postcss@8.4.26):
     resolution: {integrity: sha512-VbfLlOWO7sBHBTn6pwDQzc07Z0SDydgDBfNfCE0nvrehdBNv9RKsuupIRa/qal0+fBZhAALyQDPMKz5lnvcchw==}
     engines: {node: ^14 || ^16 || >=18}
@@ -3044,6 +3061,8 @@ packages:
     resolution: {integrity: sha512-Nna7rph8V0jC6+JBY4Vk4ndErUmfJfV6NJCaZdurL0omggabiy+QB2HCQtu5c/ACLZ0I7REv7A4QyPIoYzZx0w==}
     dev: true
 
+=======
+>>>>>>> b14fd2c17ad3480eda0d5525e7807af5196f6e91
   /cssesc@3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
@@ -4423,6 +4442,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+<<<<<<< HEAD
   /postcss-attribute-case-insensitive@6.0.2(postcss@8.4.26):
     resolution: {integrity: sha512-IRuCwwAAQbgaLhxQdQcIIK0dCVXg3XDUnzgKD8iwdiYdwU4rMWRWyl/W9/0nA4ihVpq5pyALiHB2veBJ0292pw==}
     engines: {node: ^14 || ^16 || >=18}
@@ -4612,6 +4632,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
+=======
+>>>>>>> b14fd2c17ad3480eda0d5525e7807af5196f6e91
   /postcss-nesting@12.0.0(postcss@8.4.26):
     resolution: {integrity: sha512-knqwW65kxssmyIFadRSimaiRyLVRd0MdwfabesKw6XvGLwSOCJ+4zfvNQQCOOYij5obwpZzDpODuGRv2PCyiUw==}
     engines: {node: ^14 || ^16 || >=18}
@@ -4623,6 +4645,7 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
+<<<<<<< HEAD
   /postcss-opacity-percentage@2.0.0(postcss@8.4.26):
     resolution: {integrity: sha512-lyDrCOtntq5Y1JZpBFzIWm2wG9kbEdujpNt4NLannF+J9c8CgFIzPa80YQfdza+Y+yFfzbYj/rfoOsYsooUWTQ==}
     engines: {node: ^14 || ^16 || >=18}
@@ -4753,6 +4776,8 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
+=======
+>>>>>>> b14fd2c17ad3480eda0d5525e7807af5196f6e91
   /postcss-selector-parser@6.0.13:
     resolution: {integrity: sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==}
     engines: {node: '>=4'}
@@ -4761,10 +4786,13 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
+<<<<<<< HEAD
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
+=======
+>>>>>>> b14fd2c17ad3480eda0d5525e7807af5196f6e91
   /postcss@8.4.26:
     resolution: {integrity: sha512-jrXHFF8iTloAenySjM/ob3gSj7pCu0Ji49hnjqzsgSRa50hkWCKD0HQ+gMNJkW38jBI68MpAAg7ZWwHwX8NMMw==}
     engines: {node: ^10 || ^12 || >=14}
@@ -6164,7 +6192,3 @@ packages:
     dependencies:
       tslib: 2.3.0
     dev: false
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
