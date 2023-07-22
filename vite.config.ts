@@ -11,7 +11,7 @@ export default defineConfig(({ command, mode }) => {
       }
     },
     css:{
-      devSourcemap:command==='serve'?true:false
+      devSourcemap:command==='serve'
     },
     server:{
       proxy:{
