@@ -1,7 +1,5 @@
-function appTheme(){
-  return {
-    
-  }
+function appTheme() {
+  return {}
 }
 
 export default appTheme
