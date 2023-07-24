@@ -7,7 +7,18 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "lint:code": "eslint \"src/**/*.{js,ts,tsx,html}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{js,ts,tsx,html}\"",
+    "format:code": "prettier --write \"src/**/*.(ts|tsx|js|html)\"",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,tsx}": [
+      "npm run format:code",
+      "npm run lint:fix",
+      "npm run lint:code"
+    ]
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
